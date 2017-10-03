@@ -17,6 +17,18 @@ namespace ConsoleApp1
                     Console.WriteLine("fizzbuzz");
 
                 }
+                else if (i % 21 == 0)
+                {
+                    Console.WriteLine("FizzBang");
+                }
+                else if (i % 35 == 0)
+                {
+                    Console.WriteLine("BuzzBang");
+                }
+                else if (i % 11 == 0)
+                {
+                    Console.WriteLine("Bong");
+                }
                 else if (i % 5 == 0)
 
                 {
@@ -25,6 +37,10 @@ namespace ConsoleApp1
                 else if (i % 3 == 0)
                 {
                     Console.WriteLine("fizz");
+                }
+                else if (i % 7 == 0)
+                {
+                    Console.WriteLine("Bang");
                 }
                 else
                 {
